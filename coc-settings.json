@@ -1,0 +1,128 @@
+{
+  // suggestions
+  // "suggest.echodocSupport": true,
+  // TODO add more labels and give them cool glyphs
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+  //"yank.priority": 1,
+  "suggest.languageSourcePriority": 99,
+  "coc.source.file.priority": 2,
+  "coc.source.around.priority": 3,
+  "coc.source.buffer.priority": 4,
+  "suggest.echodocSupport": false,
+  "suggest.maxCompleteItemCount": 20,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "javascript.jsx",
+    "json",
+    "html",
+    "css",
+    "makrdown",
+    "python",
+    "yaml"
+  ],
+
+  "coc.preferences.hoverTarget": "float",
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+  "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+
+  //"diagnostic.displayByAle": false,
+
+  // snippets
+  //"snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  // codelens
+  "codeLens.enable": true,
+
+  // python config
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.stubPath": "typings",
+  "python.analysis.typeshedPaths": [],
+  "python.analysis.diagnosticSeverityOverrides": {},
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.pythonPath": "python",
+  "python.venvPath": "",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.local/bin/black",
+  "python.formatting.blackArgs": [],
+  "python.formatting.autopep8Path": "autopep8",
+  "python.formatting.autopep8Args": [],
+  "python.formatting.yapfPath": "yapf",
+  "python.formatting.yapfArgs": [],
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.banditEnabled": false,
+  "python.linting.mypyEnabled": false,
+  "python.linting.pytypeEnabled": false,
+  "python.linting.prospectorEnabled": false,
+  "python.linting.pydocstyleEnabled": false,
+  "python.linting.pylamaEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "pyright.disableCompletion": false,
+  "pyright.disableLanguageServices": false,
+  "pyright.disableOrganizeImports": false,
+  //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  //"ignoredRootPaths": ["~"]
+  /* "languageserver": { */
+  /*   "phplang": { */
+  /*     "command": "php", */
+  /*     "args": [ */
+  /*       "/path/to/vendor/felixfbecker/language-server/bin/php-language-server.php" */
+  /*     ], */
+  /*     "filetypes": ["php"] */
+  /*   } */
+  /* }, */
+  // explorer
+  /* "explorer.width": 30, */
+  /* "explorer.icon.enableNerdfont": true, */
+  /* "explorer.previewAction.onHover": false, */
+  /* "explorer.icon.enableVimDevicons": false, */
+  /* "explorer.keyMappings": { */
+  /*   "<cr>": ["expandable?", "expand", "open"], */
+  /*   "v": "open:vsplit" */
+  /* }, */
+
+  // snippets
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  // emmet
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+
+  // CSS (disable since I'm also using stylelintplus)
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
+  //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "languageserver": {
+    "lua": {
+      "command": "lua-lsp",
+      "filetypes": ["lua"]
+    }
+  }
+}
